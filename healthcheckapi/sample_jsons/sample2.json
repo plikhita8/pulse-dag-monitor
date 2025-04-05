@@ -1,0 +1,11 @@
+{
+  "components": [
+    { "name": "X", "health_check_url": "https://www.google.com" },
+    { "name": "Y", "health_check_url": "http://localhost:9999/health" },
+    { "name": "Z", "health_check_url": "https://www.thisdomaindoesnotexist1234.com" }
+  ],
+  "relationships": [
+    { "from": "X", "to": "Y" },
+    { "from": "Y", "to": "Z" }
+  ]
+}

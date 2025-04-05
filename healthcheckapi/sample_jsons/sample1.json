@@ -1,0 +1,11 @@
+{
+  "components": [
+    { "name": "A", "health_check_url": "https://www.google.com" },
+    { "name": "B", "health_check_url": "https://www.github.com" },
+    { "name": "C", "health_check_url": "https://www.stackoverflow.com" }
+  ],
+  "relationships": [
+    { "from": "A", "to": "B" },
+    { "from": "B", "to": "C" }
+  ]
+}

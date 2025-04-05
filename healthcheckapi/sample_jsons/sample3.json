@@ -1,0 +1,16 @@
+{
+  "components": [
+    { "name": "Service-A", "health_check_url": "https://www.google.com" },
+    { "name": "Service-B", "health_check_url": "https://www.github.com" },
+    { "name": "Service-C", "health_check_url": "https://www.thisdomaindoesnotexist.com" },
+    { "name": "Service-D", "health_check_url": "https://www.bing.com" },
+    { "name": "Service-E", "health_check_url": "http://localhost:5000/health" }
+  ],
+  "relationships": [
+    { "from": "Service-A", "to": "Service-B" },
+    { "from": "Service-A", "to": "Service-C" },
+    { "from": "Service-B", "to": "Service-D" },
+    { "from": "Service-C", "to": "Service-D" },
+    { "from": "Service-D", "to": "Service-E" }
+  ]
+}
