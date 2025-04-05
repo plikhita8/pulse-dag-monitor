@@ -88,7 +88,9 @@ Once the server is running, open:
 ```
 http://127.0.0.1:8000/check_health`
 ```
+
 Pass the sample Json in the Body and Headers as JSON
+
 ![img_4.png](img_4.png)
 ---
 
