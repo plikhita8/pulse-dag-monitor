@@ -1,14 +1,14 @@
 # PULSE DAG MONITOR 
 #  System Health Checker (Dependency-Aware)
 
-Hi there! 👋  
+Hi there!  
 This is a simple but powerful project that checks the health of a system made up of multiple components that depend on each other — like services in a microservices architecture.
 
 It doesn't just ping everything randomly. Instead, it understands dependencies between components, checks them smartly, and even shows you a visual graph of the entire system!
 
 ---
 
-## ✨ What This Does
+## What This Does
 
 - Accepts system information (components + their health check URLs + dependencies).
 - Checks each component's health via real HTTP calls.
@@ -18,7 +18,7 @@ It doesn't just ping everything randomly. Instead, it understands dependencies b
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python 3.8+**
 - **FastAPI** (for building the web server)
@@ -28,14 +28,14 @@ It doesn't just ping everything randomly. Instead, it understands dependencies b
 
 ---
 
-## 🚀 How to Run This Project
+## How to Run This Project
 
 Even if you don't have Python installed yet — no worries!  
 Just follow these steps:
 
 ### 1. Install Python (if you don’t have it)
 
-Go here 👉 [https://www.python.org/downloads/](https://www.python.org/downloads/) and install Python 3.10+.
+Go here [https://www.python.org/downloads/](https://www.python.org/downloads/) and install Python 3.10+.
 
 *(Make sure to check "Add Python to PATH" during installation!)*
 
