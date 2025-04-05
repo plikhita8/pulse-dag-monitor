@@ -3,7 +3,8 @@
 Hello Reader !
 
 Thanks for checking out Pulse DAG Monitor.
-I named it that way as PULSE - LIVE [Health check]
+I named it that way as PULSE - LIVE [Health check].
+
 This project is a simple and practical tool I built to monitor the health of systems that are connected like a Directed Acyclic Graph (DAG).
 
 The idea was to make something that’s easy to set up, easy to understand, and gives a clear view of how different parts of a system are doing — both as a table and a graph you can actually see.
