@@ -1,10 +1,19 @@
-# PULSE DAG MONITOR 
-#  System Health Checker (Dependency-Aware)
+# PULSE DAG MONITOR
 
-Hi there! 👋  
-This is a simple but powerful project that checks the health of a system made up of multiple components that depend on each other — like services in a microservices architecture.
+Hello Reader !
 
-It doesn't just ping everything randomly. Instead, it understands dependencies between components, checks them smartly, and even shows you a visual graph of the entire system!
+Thanks for checking out Pulse DAG Monitor.
+I named it that way as PULSE - LIVE [Health check]
+This project is a simple and practical tool I built to monitor the health of systems that are connected like a Directed Acyclic Graph (DAG).
+
+The idea was to make something that’s easy to set up, easy to understand, and gives a clear view of how different parts of a system are doing — both as a table and a graph you can actually see.
+
+The health checks run asynchronously for better performance, and the results are made simple to read even if you’re not digging into the backend details. I wanted it to be lightweight but still effective enough for real-world use cases.
+
+I’ve put a lot of thought into making sure it’s beginner-friendly — even if you don't have Python installed yet, you’ll find step-by-step instructions here to get it up and running without any trouble.
+Really enjoyed working on this and bringing the idea to life — hope you like it too!
+Thank you for reviewing my submission. I truly enjoyed building this solution!
+
 
 ---
 
