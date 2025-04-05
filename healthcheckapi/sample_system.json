@@ -1,0 +1,16 @@
+{
+"components": [
+{"name": "A", "health_check_url": "http://example.com/health/A"},
+{"name": "B", "health_check_url": "http://example.com/health/B"},
+{"name": "C", "health_check_url": "http://example.com/health/C"},
+{"name": "D", "health_check_url": "http://example.com/health/D"},
+{"name": "E", "health_check_url": "http://example.com/health/E"}
+],
+"relationships": [
+{"from": "A", "to": "B"},
+{"from": "A", "to": "C"},
+{"from": "B", "to": "D"},
+{"from": "C", "to": "D"},
+{"from": "D", "to": "E"}
+]
+}
